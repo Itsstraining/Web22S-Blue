@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container {
+	
+	display: flex;
+	flex-direction: row;
+	width: 65vw;
+	height: 100vh;
+	margin: auto;
+}
+
+ .left {
+	font-size: 25px;
+	height: 100%;
+	width: 30%;
+	background-color: #e74c3c;
+}
+
+.justify__left {
+	margin: 0 0 0 15%;
+}
+
+ .left__img {
+	 border-radius: 50%;
+	height: 200px;
+	width: 200px;
+
+}
+
+
+.right {
+	font-size: 30px;
+	width: 70%;
+	height: 100%;
+	background-color: pink;
+}
+
+
+.Color-purple {
+	color: #2ecc71;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.Experience {
+}
+
+.Experience h2 {
+	font-size: 35px;
+	color: #d35400;
+}
+
+.education h3 {
+	font-size: 40px;
+	color: aqua;
+}
+
+
