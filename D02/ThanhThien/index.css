@@ -1,0 +1,38 @@
+#container{
+background-color: rgb(232, 238, 236);
+text-align: start;
+text-orientation: upright;
+display: flex;
+width: 60vw;
+height:  100ch;
+margin-left: 300px;
+
+}
+#tittle{
+    text-align: center;
+}
+.col_1{
+    width: 60%;
+    height: 100%;
+    
+}
+.col_2{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(161, 167, 165);
+    
+}
+#Info{
+    font-style: oblique;
+    outline-style: auto;
+    
+}
+.body{
+    width: 900px;
+    height:  100ch;
+    
+}
+.table{
+    padding-top: 30px;
+
+}
