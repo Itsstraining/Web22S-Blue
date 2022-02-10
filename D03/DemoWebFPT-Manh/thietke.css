@@ -15,26 +15,6 @@ body{
     width: 100%;
 }
 
-#main{
-    height: 60%;
-    width: 100%;
-}
-
-#footer{
-    background-color: black;
-    height: 30%;
-    width: 100%;
-}
-
-
-#char{
-    display:flex;
-}
-/* .picture{
-    width : 10%;
-    height: 100%;
-    margin: 1% 0 0 0;
-} */
 #icongroup{
     display:flex;
     height: 50%;
@@ -54,7 +34,85 @@ body{
 }
 #icon3{
     display:flex;
-    width : 10%;
+    width : 20%;
     height: 70%;
-    margin: 1% 1% 1% 30%;
+    margin: 1% 1% 1% 50%;
+}
+.button {
+    background-color:orangered; 
+    border: none;
+    color: white;
+    width: 40%;
+    height: 70%;
+    margin: 0 0 5% 0;
+    padding: 5% 5% 8% 5%;
+    cursor: pointer;
+  }
+table {
+    color:aliceblue;
+    text-align: center;
+    width: 100%;
+    margin: 1.5% 0 0 0;
+    padding: 0 0 0 0;
+    font-size: x-large;
+  }
+
+
+  #main{
+    height: 60%;
+    width: 100%;
+}
+
+  #container{
+    width: 40%;
+    height: 85%;
+    margin: 5% 0 0 30%;
+    
+  }
+  #title{
+      font-size: x-large;
+      color: white;
+      text-align: center;
+      /* display:flex; */
+      
+  }
+  #textbox{
+      background-color: black;
+      color: grey;  
+      width: 70%;
+      height:100%;
+      margin: 0 0 0 15%;
+  }
+ .box{
+    background-color: white;
+    width: 60%;
+    height: 3%;
+    margin: 5% 0 5% 20%;
+    padding: 2% 0 2% 2%;
+}
+
+
+#footer{
+    background-color: black;
+    height: 30%;
+    width: 100%;
+    display:flex;
+    color: gray;
+}
+#col1{
+    height: 100%;
+    width: 30%;
+    margin: 0 0 0 0;
+}
+#col2{
+    
+    height: 100%;
+    width: 50%;
+}
+#col3{
+    height: 100%;
+    width: 20%;
+}
+#iconic{
+    display: flex;
 }
