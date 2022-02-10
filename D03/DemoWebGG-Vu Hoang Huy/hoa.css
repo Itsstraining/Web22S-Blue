@@ -2,13 +2,16 @@
     background-color: white;
     height: 100vh;
     width: 100vw;
-
 }
 .content{
     border: 1px solid black;
     height: 50%;
     width: 50%;
     display: flex;
+    margin: 5% 0 0 25%;
+    border-style: ridge;
+    border-color: darkgrey;
+    
 }
 .left{
     background-color: aqua;
@@ -16,22 +19,31 @@
     height: 100%;
 }
 .right{
-    background-color: blanchedalmond;
+    background-color: white;
     width: 40%;
     height: 100%;
 }
 .topleft{
-    background-color: rebeccapurple;
+    background-color: white;
     height: 50%;
     width: 100%;
 
 
 }
 .botleft{
-    background-color: brown;
+    background-color: white;
     height: 50%;
     width: 100%;
 }
 .name{
     height: 50px;
+}
+.lastleft{
+    display: flex;
+}
+.hinhphai{
+    width: 200px;
+    height: 200px;
+    margin: 30% 0 0 25%;
+    
 }
