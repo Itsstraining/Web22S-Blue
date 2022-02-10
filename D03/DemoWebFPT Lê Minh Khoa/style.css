@@ -69,6 +69,9 @@ body {
 	height: 4rem;
 }
 
+.header .navbar {
+	justify-content: space-between;
+}
 
 .header .navbar a {
 	margin: 0 1rem;
@@ -129,13 +132,15 @@ body {
 }
 
 .Title {
+	width: 50%;
 	color: #fff;
 	min-height: 33vh;
 	padding: 254px;
+	margin: 0 0 0 20%;
 }
 
 .about {
-	margin: 0;
+	width: 163px;
 	padding: 60px 50px;
 	background-color: var(--black);
 	border-radius: 5px;
@@ -143,14 +148,15 @@ body {
 }
 
 .about .card {
+	width: 30px;
 	display: block;
 	display: flex;
 	margin: 3px;
 }
 
-.about .card .content h4 {
+.about .card .content h4 {margin-bottom: 20px;
 	color: var(--grey);
-	font-size: 10px;
+	font-size: 11px;
 }
 
 .about .card .content .inputBox {
