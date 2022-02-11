@@ -1,0 +1,49 @@
+.container{
+   
+}
+
+.img{
+    width: 200px;
+    height: auto;
+    
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.items{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));     
+}
+
+.theme{
+    width:100px;
+}
+
+h4{
+    display: flex;
+}
+
+.nav{
+    background-color: blue;
+    
+}
+
+.mid{
+    display: flex;
+    
+}
+
+.header{
+    margin-left: 900px;
+    
+}
+
+.hehe{
+    margin-left: 200px;
+}
+
+
+.item{
+    margin-left: 50px;
+}
+
