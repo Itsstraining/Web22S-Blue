@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:One Night SansVN,sans-serif;
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    padding: 0;
+    justify-content: center; 
+    color: white;
+  
+}
+
+#header{
+    background-color: rgba(0,91,170,255);
+    width: 100%;
+    height: 10%;
+    display:flex;
+}
+#logo-bar{
+    width: 60%;
+    height: 100%;
+    display:flex;
+}
+#search-bar{
+    height: 100%;
+    width: 40%;
+    margin: 3.5% 0 0 5%;
+    -webkit-appearance: none;
+    border-radius: 29px;
+}
+#searchInput{
+    background: url(https://cdn.shopify.com/s/files/1/0104/6662/3554/t/13/assets/search.svg) no-repeat center right 18px #fff;
+    background-size: auto 20px;
+    outline: none;
+}
+.font-link{
+    color: white;
+    font-size: larger;
+    text-decoration:none;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+#banner{
+    background-image: url(https://cdn.shopify.com/s/files/1/0104/6662/3554/collections/blue-balls-plp-bg_1920x.jpg?v=1592438182);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    height: 15%;
+}
+#produce-more{
+    width: 100%;
+    height: 100%;
+}
+
+#footer{
+    background-color: rgba(0,91,170,255);
+    width: 100%;
+    height: 40%;
+}
+ul{ 
+    list-style-type: none;
+  }
