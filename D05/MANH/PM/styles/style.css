@@ -52,12 +52,12 @@ body{
 }
 #banner{
     background-image: url(https://cdn.shopify.com/s/files/1/0104/6662/3554/collections/blue-balls-plp-bg_1920x.jpg?v=1592438182);
-    background-repeat: no-repeat;
-    background-position: 50%;
+    /* background-repeat: no-repeat; */
+    /* background-position: 50%; */
     background-size: cover;
     width: 100%;
     height: 200px;
-    text-align: center;
+    /* text-align: center; */
 }
 .container{
     width: 100%;
