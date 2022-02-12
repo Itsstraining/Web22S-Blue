@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root {
+	--main-color: #cc0000; 
+	--black:  #13131a;
+	--bg: #010103;
+	--light-white: #aaa;
+	--red: #DC0000;
+	--border: .1rem solid rgba(255,255,255,.3);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: .2s linear;
+}
+
+.body {
+	font-family: Roboto,sans-serif;
+	line-height: 1.25rem;
+}
+
+
+.header {
+	background: #010103;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 4px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.header .logo {
+	height: 6rem;
+}
+
+.header .navbar {
+	font-size: 1rem;
+	margin-top: 25px;
+	margin-right: 11rem;
+}
+
+
+.header .navbar a {
+	margin: 0 10px;
+	font-size: 1.6rem;
+	color: var(--light-white);
+}
+
+.header .navbar a:hover {
+	color: var(--main-color);
+	border-bottom: .1rem solid var(--main-color);
+	padding-bottom: .5rem;
+}
+
+.header .icons {
+	font-size: 50px;
+	margin-right: 2rem;
+	color: red;
+	cursor: pointer;
+}
+
+.header .icons div:hover {
+	color: var(--main-color);
+}
+
+#menu-btn {
+	display: none;
+}
+
+.header .search-form {
+	top: 110%;
+	right: 7%;
+	width: 15px;
+	height: 3px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	
+}
+
+.header .search-form input {
+	height: 100%;
+	width: 100%;
+	font-size: 1.6rem;
+	color: var(--black);
+	padding: 1rem;
+	text-transform: none;
+}
+
+.container {
+	flex-direction: row;
+	display: flex;
+	order:5;
+}
+	
