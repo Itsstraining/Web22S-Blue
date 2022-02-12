@@ -1,0 +1,50 @@
+.container{
+   
+}
+
+.img{
+    width: 200px;
+    height: auto;
+    
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));     
+}
+
+.divine{
+    width:100px;
+}
+
+h4{
+    display: flex;
+}
+
+.top{
+    background-color: black;
+    
+}
+
+.mid{
+    display: flex;
+    
+}
+
+.header{
+    margin-left: 700px;
+    
+}
+
+.search{
+    margin-left: 100px;
+}
+
+
+.item{
+    margin-left: 50px;
+}
+.item{
+    flex-wrap: wrap;
+}
