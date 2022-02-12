@@ -4,7 +4,7 @@ body{
 }
 #phase2{
     background-image: url('../assets/img2.jpg');
-    
+    position: initial;
     
     
 }
@@ -17,10 +17,8 @@ body{
     margin: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
-    border-radius: 3px;
+    justify-content: center;
 
-    
   
 }
 .header{
@@ -66,6 +64,7 @@ body{
     margin-bottom: 30px;
     margin-left: 10px;
 }
+
 .board{
     width: 30%;
     height: 100%;

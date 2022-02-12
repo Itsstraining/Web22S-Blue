@@ -37,7 +37,7 @@ for(let i = 0;i<Goods.length;i++){
     loai.innerHTML= Goods[i].loai;
     let gia=document.createElement("h4");
     gia.innerHTML=Goods[i].gia;
-
+    box.className="box";
     loai.className="items";
     gia.className="items";
 
