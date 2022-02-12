@@ -1,0 +1,91 @@
+
+body{
+    background-color: black;
+}
+#phase2{
+    background-image: url('../assets/img2.jpg');
+    position: initial;
+    
+    
+}
+.container{
+    background-color: aliceblue;
+    margin-left: 200px;
+    width: 80%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  
+}
+.header{
+    background-image: url('../assets/kny.jfif');
+    display: flex;
+    height: 30%;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    padding: 30px;
+    
+}
+.selection{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    margin-left: 100px;
+    width: 1300px;
+    
+}
+.btn1{
+    width: 200px;
+    height: 35px;
+    margin-left: 10px;
+}
+.btn2{
+    width: 50px;
+    height: 35px;
+    margin-left: 150px;
+   
+}
+.photo{
+    background-color: rgb(66, 68, 62);
+    height: 160px;
+    width: 140px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 70px;
+    margin-bottom: 0px;
+}
+#bar{
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.board{
+    width: 30%;
+    height: 100%;
+    display: table-cell;
+    text-align: center;
+    border: black;
+    margin-right: 100px;
+}
+.items{
+    margin-left: 80px;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    padding: 40px;
+    margin: 20px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-color: beige;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
