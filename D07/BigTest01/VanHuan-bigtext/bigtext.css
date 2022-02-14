@@ -1,0 +1,132 @@
+body{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	width: 100vw;
+	height : 100vh;
+	padding-bottom: 13rem;
+	/* overflow: hidden; */
+	overflow-x: hidden;
+	background-color: white; 
+}
+#main{
+	margin-left:auto;	
+	margin-right:auto;
+	width: 100%;
+    height: 100%;
+    background-color: white; 
+}
+#bangtinh{
+	/* width: 1600px; */
+    margin: 10% 10% 10% 10%;
+	width: 35%;
+	height :80%;
+	/* height: 10%; */
+    border: 3px solid blue;
+
+}
+#thanh{
+	/* width: 1600px; */
+    /* margin: 10% 10% 10% 10%; */
+	width: 100%;
+	height :20%;
+	/* height: 10%; */
+	background-color:blue;
+}
+#tinh{
+
+	width: 100%;
+	height :80%;
+	background-color:white;
+}
+#khung{
+    margin: 10% 10% 10% 10%; 
+	width: 80%;
+	height :80%;
+	background-color:yellow;
+}
+#day1{
+    margin: 10% 10% 10% 10%; 
+	width: 80%;
+	height :80%;
+	background-color:yellow;
+}
+#day2{
+    margin: 10% 10% 10% 10%; 
+	width: 80%;
+	height :80%;
+	background-color:yellow;
+}
+#day3{
+    margin: 10% 10% 10% 10%; 
+	width: 80%;
+	height :80%;
+	background-color:yellow;
+}
+#day4{
+    margin: 10% 10% 10% 10%; 
+	width: 80%;
+	height :80%;
+	background-color:yellow;
+}
+
+
+form {
+    background: #ccc;
+    margin: 0 auto;
+    margin: 10% 10% 10% 10%;
+	width: 50%;
+	height :80%;
+    border-radius: 5px;
+  }
+  
+  form * {
+    box-sizing: border-box;
+  }
+  
+  form table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  form table tr, form table td {
+    border: 1px solid #eee;
+  }
+  
+  form table tr:first-child input {
+    height: 15vh;
+    padding: 0 10px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  form table tr:not(:first-child) td {
+    height: 100px;
+  }
+  
+  form table tr:not(:first-child) td input {
+    height: 100%;
+  }
+  
+  form table input {
+    width: 100%;
+    display: block;
+    border: 0;
+    font-size: 16px;
+  }
+  
+  form table input:focus {
+    outline: none;
+  }
+  
+  form table input:hover {
+    background: #eee;
+    transition: all .2s ease-in-out;
+  }
+  
+  form table input.operator {
+    font-weight: 500;
+    color: #fff;
+    background: #33FFFF;
+  }
