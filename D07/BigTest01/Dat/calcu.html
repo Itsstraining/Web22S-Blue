@@ -1,67 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Tạo máy tính đơn giản </title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .calculator {
-            width: 400px;
-            margin: 10px auto;
-        }
-        
-        .calculator-keys {
-            width: 100%;
-            /* other necessary CSS */
-        }
-        
-        div button {
-            width: 23%;
-            height: 30px;
-            margin-top: 5px;
-            display: inline-block;
-        }
-        
-        div .key-equal {
-            height: 135px;
-            float: right;
-            margin-right: 20px;
-        }
-        
-        div button[data-action="clear"] {}
-        
-        .calculator-display {
-            width: 95%;
-            border: 1px solid black;
-            padding: 5px 7px;
-            text-align: right;
-            border-radius: 4px;
-        }
-        
-        .is-depressed {
-            background-color: #ccc;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Tạo máy tính đơn giản bằng javascript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="calculator">
-        <div class="calculator-display">0</div>
-        <div class="calculator-keys">
-            <button class="key-operator" data-action="add">+</button>
-            <button class="key-operator" data-action="subtract">-</button>
-            <button class="key-operator" data-action="multiply">&times;</button>
-            <button class="key-operator" data-action="divide">÷</button>
+        <div class="calculator__display">0</div>
+        <div class="calculator__keys">
+            <button class="key--operator" data-action="add">+</button>
+            <button class="key--operator" data-action="subtract">-</button>
+            <button class="key--operator" data-action="multiply">&times;</button>
+            <button class="key--operator" data-action="divide">÷</button>
             <button>7</button>
             <button>8</button>
             <button>9</button>
-            <button class="key-equal" data-action="calculate">=</button>
+            <button class="key--equal" data-action="calculate">=</button>
             <button>5</button>
             <button>6</button>
             <button>4</button>
@@ -76,8 +34,8 @@
 
     <script>
         const calculator = document.querySelector('.calculator');
-        const keys = calculator.querySelector('.calculator-keys');
-        const display = document.querySelector('.calculator-display');
+        const keys = calculator.querySelector('.calculator__keys');
+        const display = document.querySelector('.calculator__display');
 
 
         keys.addEventListener('click', e => {
@@ -109,12 +67,19 @@
                     calculator.dataset.previousKeyType = 'number';
                 }
 
-                if (action === 'add' || action === 'subtract' || action === 'multiply' || action === 'divide') {
+                if (
+                    action === 'add' ||
+                    action === 'subtract' ||
+                    action === 'multiply' ||
+                    action === 'divide'
+                ) {
                     console.log('operator key!');
                     key.classList.add('is-depressed');
                     calculator.dataset.previousKeyType = 'operator';
                     calculator.dataset.firstValue = displayedNum;
                     calculator.dataset.operator = action;
+
+
                 }
 
                 if (action === 'decimal') {
@@ -146,9 +111,13 @@
                         display.textContent = calculate(firstValue, operator, secondValue);
                         calculator.dataset.previousKeyType = 'calculate';
                     }
+
+
                 }
+
             }
         });
+
 
 
         function calculate(firstNum, operator, secondNum) {
