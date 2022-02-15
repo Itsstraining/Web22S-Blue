@@ -1,0 +1,30 @@
+#nav li {
+  display: inline-block;
+  position: relative;
+}
+
+#nav li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav li:hover a {
+  text-decoration: underline;
+}
+
+#nav .sub-nav {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+#nav .sub-nav a {
+  color: black;
+  line-height: 28px;
+}
+
+#nav li:hover .sub-nav {
+  display: block;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
