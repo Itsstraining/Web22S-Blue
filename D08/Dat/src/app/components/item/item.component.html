@@ -1,0 +1,10 @@
+<div class="container">
+    <div *ngFor="let item of accounts" class="item">
+        <img id="image" src="{{item.photoURL}}" alt="">
+        <h3 id="name">{{item.name}}</h3>
+        <h4 class="price">Giá: {{item.price}} VNĐ</h4>
+        <div id="btn-mua">
+            <app-counter></app-counter><button class="btn-muaHang">Mua Hàng</button>
+        </div>
+    </div>
+</div>
