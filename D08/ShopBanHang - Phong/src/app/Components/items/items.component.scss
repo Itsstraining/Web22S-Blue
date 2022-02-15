@@ -1,0 +1,51 @@
+.items {
+    width: 85%;
+    height: 80%;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.815);
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.photo {
+    width: 220px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.name {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 20px;
+    display: block;
+}
+
+.price {
+    color: black;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.description {
+    color: black;
+    margin-left: 35px;
+}
+
+.btnmua {
+    margin-top: 10px;
+    margin-left: 120px;
+    display: block;
+}
