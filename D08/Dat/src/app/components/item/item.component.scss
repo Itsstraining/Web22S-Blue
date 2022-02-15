@@ -1,0 +1,40 @@
+.item {
+    width: 40vh;
+    height: 50vh;
+    margin: 100px;
+    /* border-style: solid; */
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(50vh, 1fr));
+}
+
+#image {
+    height: 25vh;
+    width: 40vh;
+}
+
+#name {
+    font-size: 2vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 2vh;
+    font-weight: lighter;
+}
+
+// .btn-muaHang {
+//     height: 5vh;
+//     width: 20vh;
+// }
+#btn-mua {
+    display: flex;
+    justify-content: center;
+}
