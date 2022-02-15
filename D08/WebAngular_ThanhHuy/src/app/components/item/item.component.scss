@@ -1,0 +1,30 @@
+.img {
+  width: 250px;
+  height: auto;
+
+  background-color: white;
+  // box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+h4 {
+  font-size: 20px;
+  color: black;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+  /* box-shadow: 10px 10px 5px #aaaaaa; */
+}
+
+h3{
+  color:red;
+  // text-align: center;
+}
+
+.box{
+  border: solid 3px violet;
+  width: fit-content;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
