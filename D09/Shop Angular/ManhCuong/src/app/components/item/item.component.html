@@ -5,9 +5,13 @@
         <img class="photo" [src]="item.photoURL">
     </div>
         <h1 class="name">{{item.name}}</h1>
-        <h2 class="price">{{item.price}}</h2>
+        <h2 class="price">{{item.price}}đ</h2>
         <button class="buy">Mua Hàng</button>
+       <app-counter (interChange)="test($event)"></app-counter>
+        <p>{{totalPrice}}</p>
 
     </div>
+    
+  </div>
 </div>
-</div>
+

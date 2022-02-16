@@ -11,6 +11,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { AvartarComponent } from './components/avartar/avartar.component';
 import { ListItemComponent } from './components/list-item/list-item.component';
 import {MatSelectModule} from '@angular/material/select';
+import { COUNTERComponent } from './components/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {MatSelectModule} from '@angular/material/select';
     ItemComponent,
     NavBarComponent,
     AvartarComponent,
-    ListItemComponent
+    ListItemComponent,
+    COUNTERComponent
   ],
   imports: [
     BrowserModule,

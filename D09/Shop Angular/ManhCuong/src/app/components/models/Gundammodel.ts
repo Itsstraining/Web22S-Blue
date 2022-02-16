@@ -1,5 +1,6 @@
 export interface Gundam{
     name: string;
-    price: string;
+    price: number;
     photoURL:string;
+    Quantity:number;
 }
