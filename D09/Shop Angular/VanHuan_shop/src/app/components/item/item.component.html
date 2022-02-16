@@ -2,7 +2,9 @@
     <div class="item">
         <img src="{{item.photoURL}}" alt="" class="imag">
         <p class="namegame">{{item.name}}</p>
-        <p class="pirce">{{item.price}}</p>
+        <p class="pirce">₫ {{item.price}}</p>
+        <app-counter (itemChange)="test($event)"></app-counter>
+        <!-- <p>{{totalPrice}}</p> -->
         <button class="buttbuy">Buy</button>
     </div>
 </div>

@@ -11,12 +11,14 @@ import { HearderComponent } from './components/hearder/hearder.component';
 import { ListItemsComponent } from './components/list-items/list-items.component';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { CounterComponent } from './components/counter/counter.component';
 @NgModule({
   declarations: [
     AppComponent,
     ItemComponent,
     HearderComponent,
-    ListItemsComponent
+    ListItemsComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,

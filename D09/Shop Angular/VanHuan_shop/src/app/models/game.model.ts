@@ -1,5 +1,6 @@
-export interface Game {
+export  interface  Game {
     name : string,
-    price: string
+    price: number,
     photoURL :string
+    quantity : number
 }
