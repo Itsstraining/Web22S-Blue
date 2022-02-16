@@ -1,0 +1,9 @@
+<div class="box">
+    <img [matTooltip]="item.des" class="img" [src]="item.photoURL" />
+    <h3>{{item.name}}</h3>
+    <h4>{{item.price}} VNĐ</h4>
+    <h2> số lượng: {{item.quantity}}</h2>
+    <app-counter (num)="test($event * item.price)"></app-counter>
+    <p>Giá tiền: {{total}}</p>
+    <button class="button" mat-raised-button color="primary">Mua</button>
+</div>
