@@ -9,7 +9,8 @@ export class DataService {
     {name :"Gundam Barbatos",
      price: 490000,
      photoURL: "https://file.hstatic.net/1000231532/file/full_mechanics_gundam_barbatos_lupus_rex_1-100_chinh_hang_grande.jpg",
-     Quantity:0
+     Quantity:0,
+     
   },
       {name :"Gundam Cherudim",
       price: 242450,

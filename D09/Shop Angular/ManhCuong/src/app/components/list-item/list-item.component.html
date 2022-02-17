@@ -12,5 +12,7 @@
 <div class="container">
     <div  *ngFor="let item of listItem" class="item">
         <app-item  [item]="item"></app-item>
+
     </div>
 </div>
+<button id="button" (click)="this.calcu.sumItem()">Thanh Toán</button>
