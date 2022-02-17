@@ -1,0 +1,12 @@
+<div class="box">
+    <img [matTooltip]="item.des" class="img" [src]="item.photoURL" />
+    <h3>{{item.name}}</h3>
+    <h4> Giá tiền: {{item.price}} VNĐ</h4>
+    <h2> số lượng: {{item.quantity}}</h2>
+    <app-counter (num)="test($event)"></app-counter>
+    <p>Thành tiền: {{total}}</p>
+    <button class="button" mat-raised-button color="primary">Mua</button>
+</div>
+
+<!-- *ngIf="item.quantity" > 0
+==> nếu mún lấy sp có sl > o -->
