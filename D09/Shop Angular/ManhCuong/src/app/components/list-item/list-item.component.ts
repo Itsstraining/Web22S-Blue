@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
+import { ServiceService } from 'src/app/services/service.service';
 import { Gundam } from '../models/Gundammodel';
 
 @Component({
@@ -9,8 +10,7 @@ import { Gundam } from '../models/Gundammodel';
 })
 export class ListItemComponent implements OnInit {
   public listItem: Array<Gundam>=[]
-
-  constructor(public database:DataService) { 
+  constructor(public database:DataService,public calcu:ServiceService) { 
      console.log(this.database.listItem)
      this.listItem=this.database.listItem;
   }
