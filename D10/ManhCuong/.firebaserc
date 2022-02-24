@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-968a9": {
+      "hosting": {
+        "LockonStratos": [
+          "fir-968a9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-968a9"
+  }
+}
