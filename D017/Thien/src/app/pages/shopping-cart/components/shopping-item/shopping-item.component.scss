@@ -1,0 +1,47 @@
+.all{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(224, 214, 214);
+    margin-left: 10%;
+}
+.container1{
+    justify-content: center ;
+    background-color: rgb(224, 214, 214);
+
+    width: 80%;
+    height: 60%;
+   margin-top: 30px;
+    border-radius: 20px;
+}
+.info{
+    margin: 20px;
+}
+#col1{
+    margin-top: 20px;
+    border: solid 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#col2{
+    margin-top: 20px;
+    height: fit-content;
+    width: max-content;
+    border-color: black;
+    padding: 2px;
+    margin-left: 10px;
+    color: red;
+}
+
+.pay{
+    size: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px black;
+    font-size: larger;
+    font-weight: bold;
+    background-color: burlywood;
+    cursor: pointer;
+}
+.pay button:hover{
+    background-color: black;
+}
