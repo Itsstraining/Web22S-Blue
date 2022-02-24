@@ -1,0 +1,17 @@
+<div>
+    <p>
+        <mat-toolbar style="background-color: blue;height: auto;">
+            <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+              <mat-icon>menu</mat-icon>
+            </button>
+            <span (click)= "navigate('')" id="web" style="cursor: all-scroll;">My Web</span>
+            <span class="example-spacer"></span>
+            <button style="cursor: all-scroll;" (click)= "navigate('/shopping-cart')" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+              <mat-icon>shopping_cart</mat-icon>
+            </button>
+            <button style="cursor: all-scroll;" (click)= "navigate('/login')" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+              <mat-icon>login</mat-icon>
+            </button>
+          </mat-toolbar>
+    </p>
+</div>
