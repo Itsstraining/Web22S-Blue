@@ -1,0 +1,18 @@
+<div class="banner">
+    <img src="../../../assets/gundam_hg_high_grade_chinh_hang_d439fa8c8fcd442b9cb3c430a668bb07.jpg">
+  </div>
+<div class="phanloai">
+    <ul>
+        <li><a href="#ThuongHieu">Thương Hiệu</a></li>
+        <li><a href="LocGia">Lọc Giá</a></li>
+        <li><a href="#san_pham">Sản phẩm</a></li>
+        <li><a href="Promotion">Promotion</a></li>
+    </ul>
+</div>
+<div class="container">
+    <div  *ngFor="let item of this.database.listItem" class="item">
+        <app-item  [item]="item"></app-item>
+
+    </div>
+</div>
+<button id="button" (click)="this.calcu.sumItem()">Thanh Toán</button>

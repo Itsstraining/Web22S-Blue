@@ -1,0 +1,51 @@
+
+
+  .box {
+    flex: 1 1 150px;
+    flex: 0 1 150px; 
+    margin: 5px;
+  }
+  .photo{
+  
+    max-width:120%;
+    max-height:120%;
+
+  }
+  .imgdiv{
+    width: 80%;
+    height: 200% ;
+
+  }
+  .Productdiv{
+    max-width:50% ;
+    max-height:100% ;
+  }
+  .Product{
+    border-style: solid;
+    width: 150%;
+    height: 200%;
+    padding: 10px;
+  box-shadow: 5px 10px;
+  }
+  
+  .name{
+    width: 80%;
+    height: 20% ;
+    margin-top:5px;
+    margin-bottom:5px ;
+    margin-left: 50px;
+  }
+  .price{
+    width: 20%;
+    height: 15% ;
+    margin-top:5px;
+    margin-bottom:5px ;
+    margin-left: 100px;
+  }
+.buy{
+  margin-left: 100px;
+  margin-right: 50px;
+  color: red;
+  border-color: red;
+
+}
