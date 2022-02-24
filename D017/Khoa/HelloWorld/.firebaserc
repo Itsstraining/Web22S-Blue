@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tomtoctv-angular": {
+      "hosting": {
+        "HelloWorld": [
+          "tomtoctv-angular"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tomtoctv-angular"
+  }
+}
