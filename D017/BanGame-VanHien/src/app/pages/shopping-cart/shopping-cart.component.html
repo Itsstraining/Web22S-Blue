@@ -1,0 +1,5 @@
+<div *ngFor="let tien of this.cart.listCart">
+    <p>{{tien.name}}</p>
+    <p>{{tien.atm}}</p>
+</div>
+<button (click)="ThanhTien()">Thanh toán</button>
