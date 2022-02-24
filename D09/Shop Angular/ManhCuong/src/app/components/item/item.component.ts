@@ -13,14 +13,15 @@ public quantity=0;
 public totalPrice=0;
   ngOnInit(): void {
 
-    console.log(this.item)
+    // console.log(this.item)
   }
   test(a:any){
-    this.quantity=a
-    this.totalPrice=this.quantity*this.item.price
+    this.item.Quantity=a
+    // this.quantity=a
+    // this.totalPrice=this.quantity*this.item.price
 
 
-    console.log(this.totalPrice)
+    // console.log(this.totalPrice)
   }
 }
 
