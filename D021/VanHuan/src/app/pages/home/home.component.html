@@ -1,0 +1,14 @@
+<!-- <app-hearder></app-hearder> -->
+<app-list-items></app-list-items>
+<div>
+    <form [formGroup]="formitem">
+        <input formControlName="name" placeholder="name" type="text">
+        <br>
+        <input formControlName="price" placeholder="price" type="text">
+        <br>
+        <input formControlName="photoURL" placeholder="photoURL" type="text">
+        <br>
+        <input formControlName="quantity" placeholder="quantity" type="text">
+    </form>
+    <button (click)="addData()">Add to cart</button>
+</div>

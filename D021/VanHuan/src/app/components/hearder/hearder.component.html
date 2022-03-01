@@ -1,0 +1,42 @@
+<head>
+    <title>Font Awesome Icons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<div class="contaitor">
+    <div id="tieude">
+        <div id="thanh">
+        <div id="thanhtrangchu">
+            <nav id="chon" >
+                <a routerLink="/home">STORE</a> 
+                <a href="https://www.epicgames.com/site/en-US/epic-games-store-faq">FQA</a> 
+                <a >HELP</a> 
+                <a href="https://www.unrealengine.com/en-US/">UNREAL ENGINE</a> 
+            </nav>
+        </div>
+        <div id="dk">
+            <div *ngIf="this.user!=null">
+                <div class="column" >
+                    <img id="logo-login" [src]="user.photoURL" (click)="logout()">
+                </div> 
+            </div> 
+            <div *ngIf="this.user==null" >
+            <div class="column" >
+                <button  (click)="login()" >LOG IN</button>
+            </div> 
+              <div class="column" >
+                <!-- <button (click)="navigate('/login')" >SIGN IN</button> -->
+                <button  (click)="logout()">LOG OUT</button>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div id="search">
+            <img src="../../../assets/Epic_Games_logo.png" alt="logo epicgam" id="logo" (click)="navigate('/home')">
+            <div id="box">
+                <input type="text" placeholder="Search">
+            </div>
+            <i class="fa fa-shopping-cart" (click)="navigate('/shopping-cart')" ></i>
+        </div>
+    </div>
+    </div>
