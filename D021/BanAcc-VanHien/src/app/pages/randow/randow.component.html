@@ -1,0 +1,21 @@
+<div class="randow">
+    <p style="text-align: center;font-size: 30px;">Danh mục Randow Acc</p>
+    <br>
+    <hr style="background-color: blue;border-style: double;width: 100px;height: 5px;">
+</div>
+<div class="full">
+    <div *ngFor="let item of Randow">
+        <div class="menu">
+            <img class="team" [src]="item.photoUrl">
+            <div class="text">
+                <div id="name">
+                    <h1><b>{{item.name}}</b></h1>
+                    <h2><b>{{item.BanAcc}}</b></h2>
+                </div>
+                <div>
+                    <button matTooltip="Xem" id="mua">Xem tất cả</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

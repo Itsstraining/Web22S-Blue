@@ -1,0 +1,24 @@
+<div *ngFor="let tien of this.cart.listCart">
+    <p style="font-size: 30px;">{{tien.BanAcc}}</p>
+    <p style="font-size: 30px;">{{tien.atm}}</p>
+</div>
+
+<button (click)="ThanhTien()">Thanh toán</button>
+<div *ngFor="let item of Items" >
+    <app-item [item]="item"></app-item>
+</div>
+<div >
+    <form [formGroup]="itemForm" action="">
+        <input formControlName="photoUrl" placeholder="photoUrl" type="text" id="them">
+        <br>
+        <input formControlName="name" placeholder="name" type="text" id="them">
+        <br>
+        <input formControlName="price" placeholder="price" type="text" id="them">
+        <br>
+        <input formControlName="atm" placeholder="atm" type="text" id="them">
+        <br>
+        <input formControlName="quantily" placeholder="quantily" type="text" id="them">
+    </form>
+    <button (click)="addData()" style="margin-top: 10px;margin-left: 20px;margin-bottom: 20px;">Thêm loại sản phẩm</button>
+</div>
+    
