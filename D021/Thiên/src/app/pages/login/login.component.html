@@ -1,0 +1,21 @@
+<div style="margin-left:500px ; margin-top: 50px;" *ngIf="user">
+  <img  [src]="user.photoURL" >
+  <h2 > {{user.displayName}}  </h2>
+</div>
+<h2 style="margin-left:500px;margin-top: 50px;" *ngIf="!user"> Chả có gì ở đây </h2>
+
+<form [formGroup]="form" (submit)="submit()">
+    <mat-form-field appearance="outline">
+      <mat-label>Legacy form field</mat-label>
+      <input matInput formControlName="math"  placeholder="Phép tính" >
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Hint</mat-hint>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Standard form field</mat-label>
+      <input matInput formControlName="result" placeholder="kết quả">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Hint</mat-hint>
+    </mat-form-field>
+  <button type="submit"  > Check </button>
+</form>

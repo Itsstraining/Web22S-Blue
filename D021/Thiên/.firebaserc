@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "demoagular1": {
+      "hosting": {
+        "Thien": [
+          "demoagular1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "demoagular1"
+  }
+}
