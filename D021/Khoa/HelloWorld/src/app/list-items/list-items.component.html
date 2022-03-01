@@ -1,0 +1,14 @@
+<div *ngFor="let item of Items">
+	<app-item [Item]="item" ></app-item>
+</div>
+
+
+<div>
+	<form [formGroup]="itemForm" action="">
+		<input formControlName="name" placeholder="name" type="text">
+		<br>
+		<input formControlName="quantity" placeholder="quantity" type="text">
+	</form>
+	<button (click)="addData()">Thêm sản phẩm</button>
+		
+</div>
