@@ -1,0 +1,38 @@
+.full{
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 20px;
+	margin-bottom: 50px;
+    border: solid 3px;
+    background-color: white;
+    text-align: center;
+}
+.menu:hover{
+    box-shadow: 5px 5px 10px blue;
+}
+.randow{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+#mua{
+    font-size: 20px;
+    width: 150px;
+    background-color: #99FFFF;
+    border-radius: 17px;
+    cursor: all-scroll;
+}
+.text{
+    font-size: 20px;
+}
+.team{
+    width: 400px;
+    height: 300px;
+}

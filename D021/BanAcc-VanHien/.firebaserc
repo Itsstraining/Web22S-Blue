@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webbangame-firebase": {
+      "hosting": {
+        "WebBanGame": [
+          "webbangame-firebase"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webbangame-firebase"
+  }
+}

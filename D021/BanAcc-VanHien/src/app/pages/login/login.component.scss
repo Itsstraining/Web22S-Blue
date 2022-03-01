@@ -1,0 +1,131 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    background-color: green;
+  }
+
+  button{
+    font-size: 20px;
+    background-color: green;
+  }
+// #dk{
+//     font-size: 30px;
+//     color: white;
+//     text-align:center;
+// }
+// #font{
+//     text-align:center;
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 500px;
+// 	height :auto;
+// 	background-color:#222222;
+//     padding-bottom: 20px;
+// }
+// #chaomung{
+//     font-size: 30px;
+//     color: white;
+//     text-align:center;
+// }
+// #toida{
+//     color: gray;
+//     margin-bottom: 5px;
+// }
+// .form{
+//     width: 400px;
+// 	height : 50px;
+// 	background-color:white;
+//     margin-top: 20px;
+//     font-size: 20px;
+// }
+// #dieukhoan{
+//     color: gray;
+//     text-align:center;
+// }
+// #chinhsach{
+//     color: white;
+//     text-align: center;
+// }
+// .dangnhap{
+//     height: 50px;
+//     width: 410px;
+//     font-size: 20px;
+//     background-color: red;
+//     margin-top: 20px;
+//     cursor: all-scroll;
+// }
+// #toida{
+//     font-size: 20px;
+//     color: white;
+//     margin-bottom: 5px;
+//     margin-top: 10px;
+//     cursor: all-scroll;
+// }
+// .dangky{
+//     height: 50px;
+//     width: 410px;
+//     font-size: 20px;
+//     background-color: #99FFFF;
+//     margin-top: 20px;
+//     cursor: all-scroll;
+// }
+// .fb{
+//     height: 50px;
+//     width: 410px;
+//     font-size: 20px;
+//     background-color: #6699FF;
+// }
+// .text{
+//     color: gray;
+//     font: 14px;
+//     background: #1f1f1f;
+//     padding: 0px 5px;
+// }
+// #hoac{
+//     color: white;
+//     vertical-align:middle;
+//     text-align:center;
+//     font-size: 20px;
+// }
+// #gach{
+//     border-bottom: 2px solid white; 
+//     width: 47%;
+// }
+// #d{
+//     margin-left: 50px;
+//     width: 410px;
+//     background-color:#222222;
+// }
+#bottom{
+	width: 100%;
+	height :auto;
+	background-color:#C0C0C0;
+	display: flex;
+	flex-wrap: wrap;
+    margin-top: 30px;
+}
+#gioithieu{
+	font-size: 20px;
+}
+#lienhe{
+	font-size: 20px;
+	text-align: center;
+}
+#thongke{
+	font-size: 20px;
+}
+#dichvu{
+	font-size: 20px;
+}
+#shopacc{
+    width: 100%;
+	height :auto;
+    margin-top: 10px;
+    margin-left: 50px;
+}
