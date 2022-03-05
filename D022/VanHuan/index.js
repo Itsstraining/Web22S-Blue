@@ -20,10 +20,19 @@ app.put("/updateItem",(request,response)=>{
     // arr.forEach
     for(let i=0;i<arr.length;i++){
         if(arr[i].name==temp.name){
-            arr[i].name==temp.newName;
-            response.send("cap nhat thanh cong"+arr)
+            arr[i].name=temp.newName;
         }else{
-            response.send("khong tim thay")
+        }
+    }
+    response.send(arr);
+})
+app.delete("/deleteItem",(request,response)=>{
+    let temp=request.body;
+    // arr.forEach
+    for(let i=0;i<arr.length;i++){
+        if(arr[i].name==temp.name){
+            arr.splice(i,1);
+        }else{
         }
     }
     response.send(arr);
