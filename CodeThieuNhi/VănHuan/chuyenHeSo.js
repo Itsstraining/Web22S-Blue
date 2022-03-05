@@ -14,6 +14,7 @@ function chuyen10HeSo(n,y){
                         arr.unshift(he16[i]);
                     }
                 }
+                
                 else{
                     arr.unshift(chia);
                 }
